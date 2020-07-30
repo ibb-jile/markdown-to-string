@@ -1,5 +1,5 @@
 {
-  "name": "upload-file-as-readme-to-bintray-action",
+  "name": "markdown-to-string",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ibb-jile/upload-file-as-readme-to-bintray-action.git"
+    "url": "git+https://github.com/ibb-jile/markdown-to-string.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ibb-jile/upload-file-as-readme-to-bintray-action/issues"
+    "url": "https://github.com/ibb-jile/markdown-to-string/issues"
   },
-  "homepage": "https://github.com/ibb-jile/upload-file-as-readme-to-bintray-action#readme",
+  "homepage": "https://github.com/ibb-jile/markdown-to-string#readme",
   "dependencies": {
     "@actions/core": "^1.2.4",
     "@actions/github": "^4.0.0"
