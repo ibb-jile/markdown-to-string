@@ -1,0 +1,12 @@
+name: 'Markdown to string'
+description: 'Convert markdown to string'
+inputs:
+  fila-path:
+    description: 'file path'
+    required: true
+outputs:
+  result:
+    description: 'Result string'
+runs:
+  using: 'node12'
+  main: 'index.js'
