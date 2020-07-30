@@ -7,8 +7,8 @@ const main = async () => {
     const path = core.getInput('file-path')
     const content = await fs.readFile(path, 'utf8')
 
-    const formattedContent = content.replace('\r', '\\r')
-        .replace('\n', '\\n')
+    const formattedContent = content.replace('\n', '\\n')
+        .replace('\r', '\\r')
         .replace('"','\\"');
 
     console.log(formattedContent);
