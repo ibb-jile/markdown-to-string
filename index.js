@@ -9,8 +9,9 @@ const main = async () => {
 
     const formattedContent = content.replace('\r', '\\r')
         .replace('\n', '\\n')
-        .replace('"','\"');
+        .replace('"','\\"');
 
+    console.log(formattedContent);
     core.setOutput("result", formattedContent);
 }
 
