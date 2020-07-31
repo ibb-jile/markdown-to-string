@@ -8,9 +8,9 @@ const main = async () => {
     const content = await fs.readFile(path, 'utf8')
 
     const formattedContent = content
+        .replace(/(\\)/gm,'\\\\')
         .replace(/(\r)/gm, '\\r')
         .replace(/(\n)/gm, '\\n')
-        .replace(/(\\)/gm,'\\\\')
         .replace(/(")/gm,'\\"');
 
     console.log(formattedContent);
