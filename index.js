@@ -10,6 +10,7 @@ const main = async () => {
     const formattedContent = content
         .replace(/(\r)/gm, '\\r')
         .replace(/(\n)/gm, '\\n')
+        .replace(/(\\)/gm,'\\\\')
         .replace(/(")/gm,'\\"');
 
     console.log(formattedContent);
